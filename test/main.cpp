@@ -3,10 +3,18 @@
 #include <QDebug>
 
 #include "Dialog.h"
+#include "QLoginDialog.h"
+#include "Widght.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
+    Widght w;
+    w.show();
+    return a.exec();
+
+
+/*************dialog****************
     Dialog w;
     int ret = w.exec();
 
@@ -21,6 +29,7 @@ int main(int argc, char *argv[])
         qDebug() << "undefind ret = " << ret;
     }
 
-    
+
     return ret;
+    ***********************************/
 }

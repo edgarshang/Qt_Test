@@ -16,6 +16,8 @@ Dialog::Dialog(QWidget *parent) :
     MixedBtn.move(20, 120);
     MixedBtn.resize(100, 30);
 
+
+
     connect(&ModalBtn, SIGNAL(clicked()), this, SLOT(ModalBtn_Clicked()));
     connect(&NormalBtn, SIGNAL(clicked()), this, SLOT(NormalBtn_Clicked()));
     connect(&MixedBtn, SIGNAL(clicked()), this, SLOT(MixedBtn_Clicked()));

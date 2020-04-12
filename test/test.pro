@@ -11,7 +11,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    Dialog.cpp
+    Dialog.cpp \
+    QLoginDialog.cpp \
+    Widght.cpp
 
 HEADERS  += \
-    Dialog.h
+    Dialog.h \
+    QLoginDialog.h \
+    Widght.h
